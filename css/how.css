@@ -1,0 +1,62 @@
+section.component { 
+    padding: 0px var(--container);
+    .text {
+        /* width: 100%; */
+        .anchors {
+            a {
+                width: 100%;
+                display: block;
+                padding: 15px;
+                border-bottom: 2px solid #777;
+                font-size: 20px;
+                color: #000;
+                &:hover {                 
+                    color: var(--second-color);
+                }
+            }
+        }
+    }
+}
+
+section.how {
+    text-align: center;
+    padding: 70px var(--container);
+    .steps {
+        .step {
+            text-align: right;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            img {
+                max-width: 8%;
+                flex-basis: 100%;
+            }
+            .text {
+                flex-basis: 40%;
+                h3 {
+                    font-size: 30px;
+                    color: #000;
+                }
+                p {
+                    color: #777;
+                    max-width: 520px;
+                }
+            }
+            img.arrow {
+                width: 100%;
+                max-width: 70%;
+                margin-top: -6rem;
+                margin-bottom: -1rem;
+                margin-left: -1rem;
+                padding: 5px 120px;
+                &.reverse {
+                    transform: scaleX(-1);
+                    margin-right: -5rem;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

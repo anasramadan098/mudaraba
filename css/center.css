@@ -1,0 +1,48 @@
+.center {
+    text-align: center;
+    padding: 0 100px 40px;
+    .cards {
+        .card {
+            border-bottom: 1px solid #EEE;
+            padding-bottom: 12px;
+            margin-bottom: 12px;
+            min-height: 140px;
+            box-shadow: 0 0 #0000,  0 0 #0000, 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            padding: 2rem;
+            border-radius: 1rem;
+            text-align: right;
+            cursor: pointer;
+            overflow: hidden;
+            img {
+                width: 45px;
+                height: 45px;
+            }
+            h3 {
+                font-size: 1.4em;
+            }
+            p {
+                font-size: 1em;
+                color: #777;
+                overflow: hidden;
+                margin: 0.5em 0;
+                transition: .3s;
+                &.font-bold {
+                    font-weight: bold;
+                }
+            }
+            table {
+                color: #777;
+                td {
+                    width: calc(100% / 3);
+                    padding: 5px;
+                    text-align: center;
+                }
+                thead {
+                    td {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
