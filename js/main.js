@@ -14,3 +14,8 @@ scrolltoTopBtn.addEventListener('click', () => {
         behavior:'smooth'
     });
  });
+
+ document.querySelector('.bars').addEventListener('click' , () => {
+    const menu = document.querySelector('.allMenu');
+    menu.classList.toggle('show');
+ })
